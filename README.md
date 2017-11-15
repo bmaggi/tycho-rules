@@ -1,7 +1,7 @@
-tycho-rules
+# tycho-rules
 ======================
 
-# Project Description
+## Project Description
 A [Maven][1]/[Tycho][2] project to add some validation rules for [OSGI][3] development.
 Most of the rules are pretty simple and are used to maintain coherence in a multi-plugin project.
 
@@ -10,7 +10,7 @@ Codeship [ ![Codeship Status for bmaggi/tycho-rules](https://app.codeship.com/pr
 
 License [![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://www.eclipse.org/legal/epl-v10.html)
 
-# How to build
+## How to build
 
 This project is built using Maven.
 To build locally, simply execute the command line:
@@ -25,7 +25,7 @@ You can also chose the it test with this command
 mvn invoker:run -Dinvoker.test=checkexportpackage,checkexportpackage.failing
 ```
 
-# How to use
+## How to use
 
 Configuration to add in the pom.xml of your project:
 ```xml
@@ -61,14 +61,14 @@ Configuration to add in the pom.xml of your project:
 </build>
 ```  
 
-# How to make a release
-## Check that you are using latest version
+## How to make a release
+### Check that you are using latest version
 ```  
 mvn versions:display-dependency-updates
 mvn versions:display-plugin-updates
 ```  
 
-## To release on maven central.
+### To release on maven central.
 ```  
 mvn release:clean release:prepare 
 ```  
