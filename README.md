@@ -6,7 +6,7 @@ A [Maven][1]/[Tycho][2] project to add some validation rules for [OSGI][3] devel
 Most of the rules are pretty simple and are used to maintain coherence in a multi-plugin project.
 
 #Status
-Codeship [ ![Codeship Status for bmaggi/tycho-rules](https://codeship.com/projects/df4dead0-12a2-0134-4498-76fd620179ca/status?branch=master)](https://codeship.com/projects/157406)
+Codeship [ ![Codeship Status for bmaggi/tycho-rules](https://codeship.com/projects/df4dead0-12a2-0134-4498-76fd620179ca/status?branch=master)](https://codeship.com/projects/256918)
 
 License [![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://www.eclipse.org/legal/epl-v10.html)
 
