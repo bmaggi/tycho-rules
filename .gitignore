@@ -1,0 +1,17 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+*.log
+bin/
+*.class
+*.java._trace
+*.pyc
+.DS_Store
+.settings/
+.project
+.classpath
+# sonarlint temporary directory
+sonarlint/
