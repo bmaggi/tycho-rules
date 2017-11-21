@@ -7,7 +7,7 @@
 
 	<name>Tycho Rules</name>	
 	<description>Some useful rules to manage a multi-plugin tycho project</description>
-	<url>https://github.com/bmaggi/checkstyle-requirejavadoctag</url>
+	<url>https://github.com/bmaggi/tycho-rules</url>
 	<inceptionYear>2017</inceptionYear>
 	
 	<licenses>
@@ -18,12 +18,15 @@
 		</license>
 	</licenses>
 
-	<contributors>
-		<contributor>
-			<name>Benoît MAGGI</name>
+	<developers>
+		<developer>
+			<id>bmaggi</id>
 			<email>benoit.maggi@gmail.com</email>
-		</contributor>
-	</contributors>
+			<name>Benoît Maggi</name>
+			<url>https://github.com/bmaggi</url>
+		</developer>
+	</developers>
+	
 	<scm>
 		<connection>scm:git:git://github.com/bmaggi/tycho-rules.git</connection>
 		<developerConnection>scm:git:git@github.com:bmaggi/tycho-rules.git</developerConnection>
