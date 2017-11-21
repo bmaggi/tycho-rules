@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.bmaggi.checks</groupId>
 	<artifactId>tycho-rules</artifactId>
-	<version>0.1.3-SNAPSHOT</version>
+	<version>0.1.3</version>
 	<packaging>jar</packaging>
 
 	<name>Tycho Rules</name>	
@@ -31,7 +31,7 @@
 		<connection>scm:git:git://github.com/bmaggi/tycho-rules.git</connection>
 		<developerConnection>scm:git:git@github.com:bmaggi/tycho-rules.git</developerConnection>
 		<url>http://github.com/bmaggi/tycho-rules/tree/master</url>
-		<tag>HEAD</tag>
+		<tag>0.1.3</tag>
 	</scm>
 	<repositories>
 		<repository>
