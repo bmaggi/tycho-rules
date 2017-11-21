@@ -10,6 +10,8 @@ Codeship [ ![Codeship Status for bmaggi/tycho-rules](https://app.codeship.com/pr
 
 License [![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://www.eclipse.org/legal/epl-v10.html)
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.bmaggi.checks/tycho-rules/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.github.bmaggi.checks/tycho-rules)
+
 ## How to build
 
 This project is built using Maven.
@@ -39,7 +41,7 @@ Configuration to add in the pom.xml of your project:
 				<dependency>
 					<groupId>com.github.bmaggi.checks</groupId>
 					<artifactId>tycho-rules</artifactId>
-					<version>0.1.0-SNAPSHOT</version>
+					<version>0.1.3</version>
 				</dependency>
 			</dependencies>
 			<executions>
