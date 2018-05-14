@@ -3,8 +3,8 @@ A [Maven][1]/[Tycho][2] project to add some validation rules for [OSGI][3] devel
 Most of the rules are pretty simple and are used to maintain coherence in a multi-plugin project.
 
 # Status
-[ ![Codeship Status for bmaggi/tycho-rules](https://app.codeship.com/projects/ecdb8d10-ac38-0135-0738-52e8b96e2dec/status?branch=master)](https://app.codeship.com/projects/256918)
-[![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://www.eclipse.org/legal/epl-v10.html)
+[![Codeship Status for bmaggi/tycho-rules](https://app.codeship.com/projects/ecdb8d10-ac38-0135-0738-52e8b96e2dec/status?branch=master)](https://app.codeship.com/projects/256918)
+[![License](https://img.shields.io/badge/license-EPL2-blue.svg)](https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.bmaggi.checks/tycho-rules/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.github.bmaggi.checks/tycho-rules)
 
 ## How to build
