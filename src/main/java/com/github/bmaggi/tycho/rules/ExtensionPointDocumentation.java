@@ -84,13 +84,7 @@ public class ExtensionPointDocumentation extends AbstractEclipsePluginEnforcerRu
 						
 					}	
 				}
-			} catch (ParserConfigurationException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (SAXException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IOException e) {
+			} catch (ParserConfigurationException |SAXException |IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}

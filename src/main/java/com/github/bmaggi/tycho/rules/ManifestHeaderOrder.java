@@ -74,13 +74,7 @@ public class ManifestHeaderOrder extends AbstractEclipsePluginEnforcerRule imple
 			bundleReaderField.setAccessible(true);
 			BundleReader bundleReader = (BundleReader) bundleReaderField.get(oo);
 			return bundleReader.loadManifest(project.getBasedir());
-		} catch (NoSuchFieldException | SecurityException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IllegalArgumentException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
+		} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

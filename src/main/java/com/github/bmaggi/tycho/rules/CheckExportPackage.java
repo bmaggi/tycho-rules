@@ -49,13 +49,6 @@ public class CheckExportPackage extends AbstractEclipsePluginEnforcerRule {
 		log.info("sourceDirectory - " + sourceDirectory + " : ");
 		
 		List<String> compileSourceRoots = project.getCompileSourceRoots();
-//		List<String> compileClasspathElements;
-//		try {
-//			compileClasspathElements = project.getCompileClasspathElements();
-//			log.info("compileClasspathElements - " + compileClasspathElements + " : ");
-//		} catch (DependencyResolutionRequiredException e) {
-//			log.error("Exception while trying to get the elements in classpath", e);
-//		}
 		log.info("compileSourceRoots - " + compileSourceRoots + " : ");
 		
 		Set<String> packageNamespace = getPackageNamespace(sourceDirectory.listFiles());

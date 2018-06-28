@@ -41,7 +41,7 @@
 	</repositories>
 
 	<prerequisites>
-		<maven>3.0</maven>
+		<maven>3.0.4</maven>
 	</prerequisites>
 
 	<distributionManagement>
@@ -56,9 +56,9 @@
 	</distributionManagement>
 	
 	<properties>
-		<tycho.version>1.0.0</tycho.version>
+		<tycho.version>1.2.0</tycho.version>
 		<enforcer.api.version>1.4.1</enforcer.api.version>
-		<maven.version>3.3.3</maven.version>
+		<maven.version>3.5.4</maven.version>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -88,7 +88,7 @@
 		<dependency>
 			<groupId>org.apache.maven.plugin-tools</groupId>
 			<artifactId>maven-plugin-annotations</artifactId>
-			<version>3.5</version>
+			<version>3.5.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.maven.enforcer</groupId>
@@ -109,7 +109,7 @@
 		<dependency>
 			<groupId>org.apache.maven.surefire</groupId>
 			<artifactId>surefire-junit4</artifactId>
-			<version>2.20</version>
+			<version>2.22.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -120,7 +120,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.1</version>
+				<version>3.7.0</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
@@ -129,12 +129,12 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.19.1</version>
+				<version>2.22.0</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-invoker-plugin</artifactId>
-				<version>2.0.0</version>
+				<version>3.1.0</version>
 				<configuration>
 					<projectsDirectory>src/test/it</projectsDirectory>
 					<streamLogs>true</streamLogs>
@@ -162,14 +162,14 @@
 					<dependency>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-scm-plugin</artifactId>
-						<version>1.9.4</version>
+						<version>1.10.0</version>
 					</dependency>
 				</dependencies>
 			</plugin>
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.7</version>
+				<version>1.6.8</version>
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>ossrh</serverId>
